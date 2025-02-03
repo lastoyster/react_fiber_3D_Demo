@@ -1,6 +1,5 @@
 {
-  "homepage": "https://lastoyster.github.io/react_fiber_3D_Demo",
-  "name": "react-fiber_3D-Demo",
+  "name": "react-fiber-3D-Demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,11 +14,7 @@
     "three": "^0.137.5",
     "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  },
   "scripts": {
-    "scripts":{
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -32,7 +27,7 @@
       "react-app",
       "react-app/jest"
     ]
-  }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -44,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
